@@ -779,6 +779,21 @@
 		DA8F25B91D51D2570010E6B5 /* MGLStyleLayerTests.mm.ejs */ = {isa = PBXFileReference; lastKnownFileType = text; name = MGLStyleLayerTests.mm.ejs; path = ../test/MGLStyleLayerTests.mm.ejs; sourceTree = "<group>"; };
 		DA8F25BA1D51D2570010E6B5 /* MGLStyleLayer.h.ejs */ = {isa = PBXFileReference; lastKnownFileType = text; path = MGLStyleLayer.h.ejs; sourceTree = "<group>"; };
 		DA8F25BB1D51D2570010E6B5 /* MGLStyleLayer.mm.ejs */ = {isa = PBXFileReference; lastKnownFileType = text; path = MGLStyleLayer.mm.ejs; sourceTree = "<group>"; };
+		DAA32CA11E4C44DB006F8D24 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = de; path = de.lproj/Foundation.stringsdict; sourceTree = "<group>"; };
+		DAA32CA21E4C44DD006F8D24 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = de; path = de.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		DAA32CA31E4C44F1006F8D24 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Foundation.strings; sourceTree = "<group>"; };
+		DAA32CA41E4C4502006F8D24 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DAA32CA51E4C450F006F8D24 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Root.strings; sourceTree = "<group>"; };
+		DAA32CA91E4C4919006F8D24 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = fr; path = fr.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		DAA32CAB1E4C491A006F8D24 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = fr; path = fr.lproj/Foundation.stringsdict; sourceTree = "<group>"; };
+		DAA32CAC1E4C4971006F8D24 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DAA32CB11E4C4C8A006F8D24 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Root.strings; sourceTree = "<group>"; };
+		DAA32CB51E4C4CF4006F8D24 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Foundation.strings; sourceTree = "<group>"; };
+		DAA32CB71E4C4ED8006F8D24 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DAA32CB81E4C4EE6006F8D24 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Root.strings; sourceTree = "<group>"; };
+		DAA32CBC1E4C4F5D006F8D24 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DAA32CBD1E4C4F62006F8D24 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Foundation.strings; sourceTree = "<group>"; };
+		DAA32CBE1E4C4F71006F8D24 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Root.strings; sourceTree = "<group>"; };
 		DAA4E4021CBB5C2F00178DFB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		DAA4E4041CBB5C9E00178DFB /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		DAA4E4061CBB5CBF00178DFB /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
@@ -1638,7 +1653,6 @@
 				354B83971D2E873E005D9406 /* MGLUserLocationAnnotationView.h in Headers */,
 				DAF0D8111DFE0EA000B28378 /* MGLRasterSource_Private.h in Headers */,
 				DABFB86B1CBE99E500D62B32 /* MGLTilePyramidOfflineRegion.h in Headers */,
-				3557F7B11E1D27D300CCA5E6 /* MGLDistanceFormatter.h in Headers */,
 				4018B1CB1CDC288E00F666AF /* MGLAnnotationView.h in Headers */,
 				DABFB85F1CBE99E500D62B32 /* MGLGeometry.h in Headers */,
 				7E016D851D9E890300A29A21 /* MGLPolygon+MGLAdditions.h in Headers */,
@@ -1832,6 +1846,11 @@
 				Base,
 				"zh-Hans",
 				"zh-Hant",
+				de,
+				fr,
+				ja,
+				sv,
+				vi,
 			);
 			mainGroup = DA1DC9411CB6C1C2006E619F;
 			productRefGroup = DA1DC94B1CB6C1C2006E619F /* Products */;
@@ -2112,7 +2131,6 @@
 				DAA4E4251CBB730400178DFB /* MGLShape.mm in Sources */,
 				35136D461D42275100C20EFD /* MGLSymbolStyleLayer.mm in Sources */,
 				35599DEE1D46F14E0048254D /* MGLStyleValue.mm in Sources */,
-				3557F7B31E1D27D300CCA5E6 /* MGLDistanceFormatter.m in Sources */,
 				DAA4E42B1CBB730400178DFB /* NSString+MGLAdditions.m in Sources */,
 				DAA4E4261CBB730400178DFB /* MGLStyle.mm in Sources */,
 				DAA4E41D1CBB730400178DFB /* MGLGeometry.mm in Sources */,
@@ -2207,6 +2225,10 @@
 				DA25D5C51CCDA06800607828 /* Base */,
 				20DABE8A1DF78149007AC5FF /* zh-Hans */,
 				DAFBD0D41E3FA7A2000CD6BF /* zh-Hant */,
+				DAA32CA51E4C450F006F8D24 /* de */,
+				DAA32CB11E4C4C8A006F8D24 /* fr */,
+				DAA32CB81E4C4EE6006F8D24 /* sv */,
+				DAA32CBE1E4C4F71006F8D24 /* vi */,
 			);
 			name = Root.strings;
 			sourceTree = "<group>";
@@ -2217,6 +2239,10 @@
 				DA8933A01CCC951200E68420 /* Base */,
 				20DABE881DF78148007AC5FF /* zh-Hans */,
 				DAFBD0D31E3FA7A1000CD6BF /* zh-Hant */,
+				DAA32CA41E4C4502006F8D24 /* de */,
+				DAA32CAC1E4C4971006F8D24 /* fr */,
+				DAA32CB71E4C4ED8006F8D24 /* sv */,
+				DAA32CBC1E4C4F5D006F8D24 /* vi */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -2227,6 +2253,9 @@
 				DA8933BB1CCD2CA100E68420 /* Base */,
 				20DABE861DF78148007AC5FF /* zh-Hans */,
 				DAFBD0D21E3FA7A1000CD6BF /* zh-Hant */,
+				DAA32CA31E4C44F1006F8D24 /* de */,
+				DAA32CB51E4C4CF4006F8D24 /* ja */,
+				DAA32CBD1E4C4F62006F8D24 /* vi */,
 			);
 			name = Foundation.strings;
 			sourceTree = "<group>";
@@ -2235,6 +2264,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				DA8933BE1CCD2CAD00E68420 /* en */,
+				DAA32CA11E4C44DB006F8D24 /* de */,
+				DAA32CAB1E4C491A006F8D24 /* fr */,
 			);
 			name = Foundation.stringsdict;
 			sourceTree = "<group>";
@@ -2251,6 +2282,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				DAC49C621CD07D74009E1AA3 /* en */,
+				DAA32CA21E4C44DD006F8D24 /* de */,
+				DAA32CA91E4C4919006F8D24 /* fr */,
 			);
 			name = Localizable.stringsdict;
 			sourceTree = "<group>";
