@@ -779,6 +779,10 @@
 		DA8F25B91D51D2570010E6B5 /* MGLStyleLayerTests.mm.ejs */ = {isa = PBXFileReference; lastKnownFileType = text; name = MGLStyleLayerTests.mm.ejs; path = ../test/MGLStyleLayerTests.mm.ejs; sourceTree = "<group>"; };
 		DA8F25BA1D51D2570010E6B5 /* MGLStyleLayer.h.ejs */ = {isa = PBXFileReference; lastKnownFileType = text; path = MGLStyleLayer.h.ejs; sourceTree = "<group>"; };
 		DA8F25BB1D51D2570010E6B5 /* MGLStyleLayer.mm.ejs */ = {isa = PBXFileReference; lastKnownFileType = text; path = MGLStyleLayer.mm.ejs; sourceTree = "<group>"; };
+		DA9C012B1E4C7AD900C4742A /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = "pt-BR"; path = "pt-BR.lproj/Localizable.stringsdict"; sourceTree = "<group>"; };
+		DA9C012C1E4C7ADB00C4742A /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = "pt-BR"; path = "pt-BR.lproj/Foundation.stringsdict"; sourceTree = "<group>"; };
+		DA9C012D1E4C7B1F00C4742A /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		DA9C012E1E4C7B6100C4742A /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Root.strings"; sourceTree = "<group>"; };
 		DAA32CA11E4C44DB006F8D24 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = de; path = de.lproj/Foundation.stringsdict; sourceTree = "<group>"; };
 		DAA32CA21E4C44DD006F8D24 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = de; path = de.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 		DAA32CA31E4C44F1006F8D24 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Foundation.strings; sourceTree = "<group>"; };
@@ -1851,6 +1855,7 @@
 				ja,
 				sv,
 				vi,
+				"pt-BR",
 			);
 			mainGroup = DA1DC9411CB6C1C2006E619F;
 			productRefGroup = DA1DC94B1CB6C1C2006E619F /* Products */;
@@ -2229,6 +2234,7 @@
 				DAA32CB11E4C4C8A006F8D24 /* fr */,
 				DAA32CB81E4C4EE6006F8D24 /* sv */,
 				DAA32CBE1E4C4F71006F8D24 /* vi */,
+				DA9C012E1E4C7B6100C4742A /* pt-BR */,
 			);
 			name = Root.strings;
 			sourceTree = "<group>";
@@ -2243,6 +2249,7 @@
 				DAA32CAC1E4C4971006F8D24 /* fr */,
 				DAA32CB71E4C4ED8006F8D24 /* sv */,
 				DAA32CBC1E4C4F5D006F8D24 /* vi */,
+				DA9C012D1E4C7B1F00C4742A /* pt-BR */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -2266,6 +2273,7 @@
 				DA8933BE1CCD2CAD00E68420 /* en */,
 				DAA32CA11E4C44DB006F8D24 /* de */,
 				DAA32CAB1E4C491A006F8D24 /* fr */,
+				DA9C012C1E4C7ADB00C4742A /* pt-BR */,
 			);
 			name = Foundation.stringsdict;
 			sourceTree = "<group>";
@@ -2284,6 +2292,7 @@
 				DAC49C621CD07D74009E1AA3 /* en */,
 				DAA32CA21E4C44DD006F8D24 /* de */,
 				DAA32CA91E4C4919006F8D24 /* fr */,
+				DA9C012B1E4C7AD900C4742A /* pt-BR */,
 			);
 			name = Localizable.stringsdict;
 			sourceTree = "<group>";

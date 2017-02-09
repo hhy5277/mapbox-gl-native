@@ -394,6 +394,8 @@
 		DA8F25B51D51D2240010E6B5 /* MGLStyleLayerTests.mm.ejs */ = {isa = PBXFileReference; lastKnownFileType = text; name = MGLStyleLayerTests.mm.ejs; path = ../test/MGLStyleLayerTests.mm.ejs; sourceTree = "<group>"; };
 		DA8F25B61D51D2240010E6B5 /* MGLStyleLayer.h.ejs */ = {isa = PBXFileReference; lastKnownFileType = text; path = MGLStyleLayer.h.ejs; sourceTree = "<group>"; };
 		DA8F25B71D51D2240010E6B5 /* MGLStyleLayer.mm.ejs */ = {isa = PBXFileReference; lastKnownFileType = text; path = MGLStyleLayer.mm.ejs; sourceTree = "<group>"; };
+		DA9C01301E4C7B9300C4742A /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = "pt-BR"; path = "pt-BR.lproj/Foundation.stringsdict"; sourceTree = "<group>"; };
+		DA9C01311E4C7B9F00C4742A /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		DAA1BB491E2D425C00ABB750 /* libmbgl-loop.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libmbgl-loop.a"; path = "../../build/macos/Debug/libmbgl-loop.a"; sourceTree = "<group>"; };
 		DAA32CA61E4C4849006F8D24 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		DAA32CA71E4C486D006F8D24 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Foundation.strings; sourceTree = "<group>"; };
@@ -1205,6 +1207,7 @@
 				ja,
 				sv,
 				vi,
+				"pt-BR",
 			);
 			mainGroup = DA839E891CC2E3400062CAFB;
 			productRefGroup = DA839E931CC2E3400062CAFB /* Products */;
@@ -1433,6 +1436,7 @@
 				DAA32CB31E4C4CC3006F8D24 /* ja */,
 				DAA32CBA1E4C4F10006F8D24 /* sv */,
 				DAA32CC11E4C4F93006F8D24 /* vi */,
+				DA9C01311E4C7B9F00C4742A /* pt-BR */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -1456,6 +1460,7 @@
 				DA8933B71CCD2C2D00E68420 /* en */,
 				DAA32CA81E4C48B9006F8D24 /* de */,
 				DAA32CAE1E4C4B03006F8D24 /* fr */,
+				DA9C01301E4C7B9300C4742A /* pt-BR */,
 			);
 			name = Foundation.stringsdict;
 			sourceTree = "<group>";
